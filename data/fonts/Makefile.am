@@ -19,4 +19,4 @@ dist_install_DATA = \
 
 install-data-hook:
 	cd $(DESTDIR)$(datadir)/fonts && \
-	$(LN_S) wqy-microhei.ttc fallback.font
+	$(LN_S) -f md_khmurabi_10.ttf fallback.font
