@@ -4,7 +4,7 @@ SUBDIRS = SoftwareManager PositionerSetup Satfinder \
 	SkinSelector SatelliteEquipmentControl Videomode VideoTune Hotplug \
 	DefaultServicesScanner DiseqcTester CommonInterfaceAssignment \
 	FastScan OSDPositionSetup OSD3DSetup HdmiCEC VideoClippingSetup \
-	VideoEnhancement NetworkWizard CableScan \
+	VideoEnhancement NetworkWizard CableScan VFD-Icons \
 	SH4OSDAdjustment SH4BoosterControl
 
 if ! ENABLE_MINIMAL
